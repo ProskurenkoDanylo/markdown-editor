@@ -15,7 +15,9 @@
     "watch": "node scripts/watch.js",
     "lint": "eslint . --ext js,ts,vue",
     "typecheck-main": "tsc --noEmit -p packages/main/tsconfig.json",
-    "typecheck": "npm run typecheck-main"
+    "typecheck-preload": "tsc --noEmit -p packages/preload/tsconfig.json",
+    "typecheck-renderer": "tsc --noEmit -p packages/renderer/tsconfig.json",
+    "typecheck": "npm run typecheck-main && npm run typecheck-preload && npm run typecheck-renderer"
   },
   "browserslist": [
     "Chrome 94"
