@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
     "module": "esnext",
     "target": "esnext",
     "sourceMap": true,
@@ -11,8 +13,8 @@
       "node"
     ],
     "typeRoots": [
-      "node_modules/@types",
+      "node_modules/@types"
     ],
     "lib": ["ESNext"]
-  },
+  }
 }

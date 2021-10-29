@@ -1,0 +1,9 @@
+.editor-wrapper {
+  height: 100%;
+  flex: 0 0 50%;
+}
+
+.ͼ1 .cm-line {
+  display: block;
+  padding: 0 10px 2px 15px;
+}
