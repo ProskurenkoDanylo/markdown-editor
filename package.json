@@ -1,6 +1,20 @@
 {
   "name": "vite-electron-builder",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ProskurenkoDanylo/markdown-editor.git"
+  },
+  "keywords": [
+    "Markdown",
+    "remark",
+    "CodeMirror",
+    "Electron",
+    "Vite",
+    "TypeScript"
+  ],
+  "author": "Proskurenko Danylo",
+  "license": "MIT",
   "engines": {
     "node": ">=v14.16",
     "npm": ">=7.7"
